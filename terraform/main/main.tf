@@ -143,8 +143,7 @@ resource "aws_security_group" "sg_web" {
 }
 
 
-
-
+#aws ecr repo
 
 resource "aws_ecr_repository" "webapp" {
   name                 = "webapp"
