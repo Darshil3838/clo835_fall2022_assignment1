@@ -10,7 +10,7 @@ output "default_tags" {
 
 
 
-# Prefix to for resources
+# Prefix to for resources   
 output "prefix" {
   value     = "Assignment1"
 }
